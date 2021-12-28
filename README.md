@@ -21,3 +21,14 @@ Ok!
 -->ncnn 
 
 ./onnx2ncnn carplatesim.onnx  carplatesim.param  carplatesim.bin
+
+--》  
+carplatesim.param   Reshape       Reshape_546              1 1 989 1007 0=-1 1=14 2=3      0=-1  importance
+
+
+
+ncnn.infer:
+
+note:  x ,y ,dw,dh  conf x1,y1, x2,y2, x3,y3,x4,y4     sigmoid 
+
+good luck 
